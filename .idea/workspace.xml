@@ -16,7 +16,7 @@
     <option name="chatModeId" value="Agent" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/snake-game" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -72,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773219879741</updated>
-      <workItem from="1773219880874" duration="9733000" />
+      <workItem from="1773219880874" duration="10072000" />
     </task>
     <servers />
   </component>
