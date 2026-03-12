@@ -1,0 +1,34 @@
+/* Body styling - center content and set full viewport height */
+body {
+    font-family: Arial, sans-serif;
+    display: flex; /* Flexbox layout for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Main game container styling */
+.game-container {
+    text-align: center; /* Center all text and inline elements */
+}
+
+/* Canvas styling - game board element */
+canvas {
+    border: 2px solid #333; /* Dark border around game board */
+    background-color: #fff; /* White background for game area */
+}
+
+/* Score display styling */
+.score {
+    font-size: 24px; /* Large font for readability */
+    margin: 20px 0; /* Space above and below */
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px; /* Internal spacing */
+    font-size: 18px; /* Large readable text */
+    cursor: pointer; /* Pointer cursor on hover */
+}

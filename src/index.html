@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding and viewport settings for responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <!-- Link to external CSS stylesheet for styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main game container -->
+    <div class="game-container">
+        <!-- Game title -->
+        <h1>Snake Game</h1>
+
+        <p class="instructions">Use arrow keys to control the snake. Eat food to grow and avoid walls and yourself.</p>
+        <!-- Canvas element where the game will be rendered (400x400 pixels) -->
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <!-- Score display section -->
+        <div class="score">Score: <span id="score">0</span></div>
+        <!-- Button to start the game -->
+        <button id="startBtn">Start Game</button>
+    </div>
+    <!-- Link to the main game logic script -->
+    <script src="snake.js"></script>
+</body>
+</html>
